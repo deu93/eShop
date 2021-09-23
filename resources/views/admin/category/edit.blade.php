@@ -48,7 +48,7 @@
                     </div>
 
                     @if ($category->image)
-                        <img src="{{ asset('assets/uploads/category/'. $category->image) }}" alt="Category image">
+                        <img src="{{ asset('assets/uploads/category/'. $category->image) }}" class="img-disp" alt="Category image">
                     @endif
 
                     <div class="col-md-12">
@@ -57,7 +57,7 @@
                     <div class="col-md-12">
                         
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Update</button>
 
                 </div>
 

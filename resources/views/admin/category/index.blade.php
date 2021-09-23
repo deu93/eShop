@@ -2,7 +2,7 @@
 @section('content')
     <div class="card">
         <div class="card-header">
-           <h4>Category page</h4> 
+           <h4>Product page</h4> 
            <hr>
         </div>
         <div class="card-body">
@@ -25,7 +25,7 @@
                             <td><img src="{{ asset('assets/uploads/category/' . $item->image) }}" alt="Image here" class="cate-image"></td>
                             
                             <td>
-                                <a href="{{ url('edit-prod/' . $item->id) }}" class="btn btn-primary"> Edit </a>
+                                <a href="{{ url('edit-category/' . $item->id) }}" class="btn btn-primary"> Edit </a>
 
                                 <a href="{{ url('delete-category/' . $item->id) }}" class="btn btn-danger"> Delete </a>
                             </td>
